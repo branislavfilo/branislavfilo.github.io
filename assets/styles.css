@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Segoe-UI", sans-serif;
+}
+
+a {
+	color: #e79614;
+}
+
+.center {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #000;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+}
+
+.header .logo {
+	vertical-align: middle;
+}
+
+.show-menu {
+
+}
+
+.menu {
+	display: flex;
+	width: 100%;
+	background-color: #efefef;
+	border-bottom: 1px solid #ddd;
+}
+
+.menu li {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.menu li a {
+	display: block;
+	color: #24292e;
+	padding: 10px 10px 7px 10px;
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+}
+
+.menu li:hover a {
+	color: #e79614;
+	background-color: #000;
+	border-bottom-color: #e79614;
+}
+
+.content {
+	display: flex;
+}
+
+.welcome {
+	text-align: center;
+	padding-top: 25px;
+	font-size: 5em;
+	text-transform: uppercase;
+}
+
+.video {
+	width: 100%;
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.site-title {
+	margin-top: 35px;
+}
+
+.aboutme {
+	margin-top: 25px;
+}
+
+.yt-emb {
+	margin-top: 20px;
+}
+
+/* Ulohy */
+.ulohy {
+	margin-top: 25px;
+	width: 100%;
+}
+
+.ulohy .uloha {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.ulohy .uloha .caption {
+	width: 100%;
+	background-color: #efefef;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-weight: 600;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+.ulohy .uloha .content {
+	width: 100%;
+	display: none;
+	padding: 10px 15px;
+	border: 1px solid #ccc;
+	border-top-color: transparent;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	flex-direction: column;
+	font-size: 15px;
+}
